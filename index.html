@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My_Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a909c253d8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!------------header-------------->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="vipul-latest-logo.png" alt="logo" class="logo">
+                
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Projects</a></li>
+                    <li><a href="#portfolio">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+
+                    <i class="fa-solid fa-xmark close-menu"  onclick="closemenu()"></i>
+               </ul>
+               <i class="fa-solid fa-bars open-menu" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                
+                
+                <h1>Hi,I'm <span>Vipul</span><br> A tech enthusiast</h1>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-------------about-------------->
+    
+    <div id="about">
+
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="vipul-about-me.jpg" alt="user">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>I'm Vipul Bhardwaj, an IT student at NSUT. Passionate about learning new technologies, I constantly expand my skill set. In addition to my love for technology, I find joy in sketching as a creative outlet. With a strong work ethic and a hunger for knowledge, I am eager to contribute to the dynamic field of technology.</p>
+
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Achievements</p>
+                        <p class="tab-links" onclick="opentab('education')">Hobbies</p>
+                    </div>
+
+                    <div id="skills" class="tab-contents active-tab">
+                        <ul>
+                            <li><span>B.tech in IT | Netaji Subhas University of Technology</span><br>Expected May 2025 | CCPA: 7.4</li>
+                            <li><span>XII in PCM | Sant Gyneshwar Model School</span><br>Grad. May 2020 | Cum. Per: 91.2</li>
+                            <li><span>X | Rockfield Public School</span><br>Grad. May 2018 | Cum. Per: 91.8</li>
+
+                        </ul>
+                    </div>
+
+                    <div id="experience" class="tab-contents">
+                        <ul>
+                            <li><span>Code Chef</span><br>Attained a global rank of 855 at starters 94(rated) <br>Got a rating of 1486 till may'23</li>
+                            <li><span>Coding Ninjas</span><br>Solved 240+ questions on coding ninjas/studio</li>
+                            <li><span>Sketching</span><br>Got awarded with 3rd prize at a regional level painting competition organized by Delhi Police</li>
+                            <li><span>NPTEL</span><br>Attained the Topper's Badge in NPTEL courses twice</li>
+
+                        </ul>
+                    </div>
+
+                    <div id="education" class="tab-contents">
+                        <ul>
+                            <li><span>Sketching</span><br>I enjoy sketching and bringing to life imaginative cartoons and animated characters through my artistic talent</li>
+                            <li><span>Watching Movies</span><br>Enthusiastic follower of Marvel movies and avid fan of espionage thrillers</li>
+                            <li><span>Online Gaming</span><br>Engage in online gaming experiences like Call of Duty and Asphalt 9, enjoying the immersive worlds and thrilling challenges they offer</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!----------------My projects------------->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Projects</h1>
+            <div class="services-list">
+                <div class="cards">
+                    <i class="fa-solid fa-address-card"></i>
+                    <h2>Portfolio Site</h2>
+                    <p>Developed a visually captivating and responsive portfolio website utilizing HTML and CSS,effectively highlighting my skills,projects,education and achievements in an engaging manner</p>
+
+                    
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+
+                <div class="cards">
+                    <i class="fa-brands fa-amazon"></i>
+                    <h2>Amazon clone</h2>
+                    <p>Created a realistic and visually appealing clone of the Amazon.com homepage using HTML and CSS, demonstrating proficiency in front-end web development and attention to detail.</p>
+
+<!--------------- Amazon Link Here---------------------- -->
+                    <a href="https://vipul-bhardwaj-279.github.io/repo1amazon/"   target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+
+                <div class="cards">
+                    <i class="fa-solid fa-code"></i>
+                    <h2>More to come!</h2>
+                    <p></p>
+
+                   
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+
+
+
+
+
+    <!-------------------my skills-------------------->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Skills</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="paradise.jpg">
+                    <div class="layer">
+                        <h3>Programming Languages</h3>
+                        <p> <br><br>
+                            <ul>
+                                <li>Intermediate: C++</li> <br>
+                                <li>Novice: Python , C</li>
+
+                            </ul>
+                        </p>
+                        <!-- <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="night-deer.jpg">
+                    <div class="layer">
+                        <h3>Front-End Web Development</h3>
+                        <p><br><br>
+                        <ul>
+                            <li>HTML</li><br>
+                            <li>CSS</li>
+                        </ul></p>
+                        <!-- <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="odessey.jpeg">
+                    <div class="layer">
+                        <h3>UI/UX Design</h3>
+                        <p><br><br>
+                        <ul>
+                            <li>Figma</li>
+                        </ul></p>
+                        <!-- <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="btn" >See More</a>
+
+        </div>
+    </div>
+
+
+
+
+
+
+    <!------------------------contact-------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle" >Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i> vipulbhardwaj279@gmail.com</p>
+                    <p> <i class="fa-solid fa-square-phone"></i> 8076123033</p>
+                    <div class="social-icons">
+                        <a href="https://www.codingninjas.com/studio/profile/939c430c-2281-46e1-95e4-1cc6c44cf3ca" target="_blank"><i class="fa-solid fa-user-ninja"></i></a>
+                        <a href="https://www.linkedin.com/in/vipulbhardwaj279"  target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/VIPUL-BHARDWAJ-279"  target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.codechef.com/users/vipul_bhardwaj"  target="_blank"><i class="fa-solid fa-code"></i></a>
+                    </div>
+                    <!-- paste resume link here -->
+                         <a href="CV-portfolio.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email ID" required>
+
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+
+
+                    <span id="msg"></span>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+
+        <div class="copyright">
+            <p>Copyright  © Vipul <br> <br> Made with <i class="fa-solid fa-heart "></i> by Vipul</p>
+        </div>
+    </div>
+
+
+
+    <div class="fixed-btn"><a href="#header" class="fixed-home"><i class="fa-solid fa-house"></i></a></div>
+
+
+
+
+
+
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+    </script>
+
+
+
+
+
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+
+
+
+    </script>
+
+
+
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxGEwLvmI3owsUtOCTvPMwSxoOz-NngG_xS_Fp7GvkrBh0Dudu9NNoN9QTi2vxaQxafHg/exec'
+    const form = document.forms['submit-to-google-sheet']
+
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML="Your message has been successfully sent to the developer "
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
